@@ -39,14 +39,14 @@
             <nav class="navbar navbar-expand-lg"> <a class="navbar-brand" href="index.html"><img
                         src="assests/images/logo-dark.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                    data-bs-target="#primaryNavbarCollapse" aria-controls="primaryNavbarCollapse"
+                    aria-expanded="true" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="primaryNavbarCollapse">
                     <ul class="navbar-nav py-3 py-lg-0 mt-1 mb-2 my-lg-0 ms-lg-n1 ps-2">
                         <li>
-                            <a class="nav-item dropdown"><a class="nav-link" href="#" role="button">Home</a>
+                            <a class="nav-item dropdown"><a class="nav-link" href="./index.html" role="button">Home</a>
                         </li>
                         <li class="nav-item dropdown"><a class="nav-link dropdown-toggle dropdown-indicator"
                                 href="JavaScript:void(0)" role="button" data-bs-toggle="dropdown"
@@ -764,7 +764,7 @@
         <section>
             <div class="bg-img" style="background-image: url(./assests/images/background-15.jpg); min-height: 442px; ">
                 <div class="overlay">
-                    <div class="container">
+                    <div class="container section">
                         <div class="d-flex">
                             <span class="me-3">
                                 <i class="ri-edit-circle-line fs-1 text-warning"></i>
@@ -812,26 +812,83 @@
             </div>
         </section>
 
-        <section class=" section" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
+         <section class=" section" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
             <div class="container">
-                <div class="row padd ">
-                    <div class="col-4 col-md-3 mx-auto"><img class="rounded-3 mx-auto img-fluid"
-                            src="./assests/images/client1.png" alt="Member"></div>
-                    <div class="col-md-9 mt-4 mt-md-0 px-4 px-sm-3 textal">
-                        <p class="lead" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">Their work on
-                            our website and Internet marketing has made a significant
-                            different to our business. We’ve seen a 425% increase in quote requests from the website
-                            which has been pretty remarkable – but I’d always like to see more!</p>
-                        <h5 class="mb-1 mt-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">Michael
-                            Clarke</h5>
-                        <p class="mb-0 fs-6 fw-normal" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
-                            CEO, A.E.T Institute</p>
-                    </div>
-                </div>
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row padd ">
+                                <div class=" col-md-3 col-sm-12 mx-auto"><img class="rounded-3 mx-auto img-fluid"
+                                        src="./assests/images/client1.png" alt="Member"></div>
+                                <div class="col-md-9 col-sm-12 mt-4 mt-md-0 px-4 px-sm-3 textal">
+                                    <p class="lead" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
+                                        Their work on
+                                        our website and Internet marketing has made a significant
+                                        different to our business. We’ve seen a 425% increase in quote requests from the
+                                        website
+                                        which has been pretty remarkable – but I’d always like to see more!</p>
+                                    <h5 class="mb-1 mt-4" data-aos="fade-up" data-aos-duration="500"
+                                        data-aos-delay="300">Michael
+                                        Clarke</h5>
+                                    <p class="mb-0 fs-6 fw-normal" data-aos="fade-up" data-aos-duration="500"
+                                        data-aos-delay="300">
+                                        CEO, A.E.T Institute</p>
+                                </div>
+                            </div>
 
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="row padd ">
+                                <div class="col-4 col-md-3 col-sm-12"><img class="rounded-3 mx-auto img-fluid"
+                                        src="./assests/images/client2.png" alt="Member"></div>
+                                <div class="col-md-9 col-sm-12 mt-4 mt-md-0 px-4 px-sm-3 textal">
+                                    <p class="lead" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
+                                        Writing case studies was a daunting task for us. We didn’t know where to begin
+                                        or what questions to ask, and clients never seemed to follow through when we
+                                        asked. Elixir team did everything – with almost no time or effort for me!</p>
+                                    <h5 class="mb-1 mt-4" data-aos="fade-up" data-aos-duration="500"
+                                        data-aos-delay="300">Maria Sharapova</h5>
+                                    <p class="mb-0 fs-6 fw-normal" data-aos="fade-up" data-aos-duration="500"
+                                        data-aos-delay="300">Managing Director, Themewagon Inc.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="row padd ">
+                                <div class="col-4 col-md-3 col-sm-12 mx-auto"><img class="rounded-3 mx-auto img-fluid"
+                                        src="./assests/images/client3.png" alt="Member"></div>
+                                <div class="col-md-9 col-sm-12 mt-4 mt-md-0 px-4 px-sm-3 textal">
+                                    <p class="lead" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
+                                        As a sales gamification company, we were skeptical to work with a consultant to
+                                        optimize our sales emails, but Elixir was highly recommended by many other
+                                        Y-Combinator startups we knew. Elixir helped us run a ~6 week email campaign.
+                                    </p>
+                                    <h5 class="mb-1 mt-4" data-aos="fade-up" data-aos-duration="500"
+                                        data-aos-delay="300">David Beckham</h5>
+                                    <p class="mb-0 fs-6 fw-normal" data-aos="fade-up" data-aos-duration="500"
+                                        data-aos-delay="300">
+                                      Chairman, Harmony Corporation</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
 
         </section>
+
 
         <div class="bg-200 py-5">
             <div class="container">
