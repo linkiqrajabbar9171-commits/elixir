@@ -448,3 +448,43 @@
     background-color: #6a6a6aa3;
     font-size: 25px;
  }
+ .input-group-text{
+    color: var(--body-color);
+ }
+ .form-control:focus{
+    border: 1px solid #dee2e6;
+
+ }
+ .form-control:focus {
+    color: #6a6a6a;
+    background-color: var(--elixir-white);
+    border-color: #959caa;
+    box-shadow: 0 0 0 transparent, 0 0 0 .25rem rgba(42, 56, 85, .25);
+}
+ .form-check-input:checked{
+    background-color: var(--heading-color);
+    border-color: var(--heading-color);
+    box-shadow: 0 0 0 0;
+    border: 0px;
+ }
+ label{
+    color:#6a6a6a78;
+    font-size: 14px;
+    font-weight: 600;
+ }
+ .btn:first-child:active{
+    background-color: var(--heading-color);
+    border-color: var(--heading-color);
+ }
+ .long{
+    padding: 12px 60px;
+    font-size: 12px;
+    border-radius: 5px;
+ }
+ .card{
+    --bs-card-border-radius: .625rem;
+ }
+ .form-check-input:focus{
+    border-color:#959caa;
+    box-shadow: 0 0 0 0;
+ }
